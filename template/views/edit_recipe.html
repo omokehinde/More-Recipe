@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+  integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" 
+  integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" 
+  integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" 
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" 
+  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" 
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"><h1 class="brand">More-Recipe</h1></div>
+      <div class="col-md-4 offset-md-4">
+        <form class="form-inline" style="padding:10px">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" style="background-color: #FF1493; color:#ffffff;" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-toggleable-md navbar-light" style="background-color: #FF1493;">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#" style="color: #ffffff;">More-Recipe</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="color: #ffffff;">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: #ffffff;">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" style="color: #ffffff;">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+        <a href="#" class="btn btn-outline-danger my-2 my-sm-0" style="color:#ffffff;">Sign Out</a>
+    </form>
+  </div>
+</nav>
+
+<div class="row animated fadeInLeft" style="padding:10px">
+  <div class="col-md-4 offset-md-4 jumbotron" style="background-color:#FFB6C1; color:#ffffff;">
+    <h3  style="text-align:center;">Edit Recipe</h3>
+    <form>
+      <div class="form-group">
+        <label >Recipe Name</label>
+        <input type="text" class="form-control" id="formGroupFullNameInput" placeholder="Some Recipe Name">
+
+        <label >Description</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Some Added Recipe"></textarea>
+
+      </div>
+      <button type="button" class="btn btn-secondary btn-md btn-block">EDIT</button>
+    </form>
+  </div>
+</div>
+  
+</body>
+</html>
